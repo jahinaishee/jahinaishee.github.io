@@ -749,9 +749,10 @@ padding:40px;
  footer {
    margin-top: 20px;
    padding: 20px;
-   color: white;
+   color: black;
    background: #F6FBEA;
-   text-align: center;
+   padding-left: 100px;
+   text-align: left;
 
  }
 
