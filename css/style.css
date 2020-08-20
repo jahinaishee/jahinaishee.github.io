@@ -1,9 +1,15 @@
+@font-face {
+  src: url(./doc/Raleway/Raleway-VariableFont_wght.ttf);
+  font-family: Raleway;
+}
+  
   body{
     font: 15px/ 1.5 Raleway;
     padding: 0;
     margin: 0;
     background-color: #ffffff;
   }
+
 /* Global */
 
 /* INDEX*/
@@ -928,7 +934,7 @@ padding:40px;
  @media(max-width: 768px){
    header #branding,
    header li,
-   header nav,
+   nav,
    header ul,
    #showcase,
    #showcase h1,
@@ -939,26 +945,7 @@ padding:40px;
    .projboxes .lbox1 h1,
    .projboxes .rbox1,
    .projboxes .lbox2,
-   .projboxes .rbox2,
-   #timeboxes .timebox1,
-   #timeboxes .timebox2,
-   #timeboxes .timebox3,
-   #bigbox,
-   #rightbox,
-   .rboxinsp,
-   .lboxinsp,
-   #sponsorshowcase,
-   .rboxspons,
-   .lboxspons,
-   #formlbox,
-   #formrbox,
-   #formrbox textarea,
-   .r1boxstory,
-   .l1boxstory,
-   .r2boxstory,
-   .l2boxstory,
-   .r3boxstory,
-   .l3boxstory{
+   .projboxes .rbox2{
      float: None;
      text-align: center;
      width: 100%;
@@ -967,107 +954,33 @@ padding:40px;
      overflow: hidden;
    }
 
-   header{
-     min-width: auto;
+   header #branding{
+     padding-top: 50px;
+     padding-bottom: 0px;
+   }
+
+   #showcase h1{
+     margin-top: 30px;
+   }
+
+   #showcase p{
+    margin-bottom: 30px;
+  }
+
+  #showcase{
+    margin-bottom: 20px;
+  }
+
+   header nav ul li{
+     padding: 10px;
    }
 
    header nav{
     float: right;
-    padding-top:104px;
+    padding-top: 20px;
     background: none;
   }
 
-  /* Project Page */
-   #budgetbox h1, #budgetbox h2{
-    float: None;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    padding-left: 50%;
-   }
-
-   #budgetdescbox{
-    float: None;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-   }
-
-   #budgetdescbox ul{
-    float: None;
-    text-align: center;
-    width: 80%;
-    margin: 0;
-    padding: 0px 80px 80px 80px;
-   }
-
-   #smallbox, #leftbox{
-    float: None;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-   }
-
-   #leftbox ol{
-    float: None;
-    text-align: center;
-    width: 80%;
-    margin: 0;
-    overflow: hidden;
-    padding-bottom: 10%;
-   }
-
-   /* Sponsor Page */
-   #sponsorshowcase{
-    float: None;
-    margin: 0;
-    width: 100%;
-    overflow: hidden;
-    padding:0;
-    background: url("../img/sponsor2.jpg") no-repeat;
-    min-height: 600px;
-   }
-
-   .containerspons h1{
-     padding: 0% 10% 10% 10%;
-     text-align: center;
-   }
-
-   .lboxspons img{
-    float: None;
-    margin: 0;
-    width: 100%;
-    overflow: hidden;
-    padding:0;
-   }
-
-   .rboxspons h2{
-    float: None;
-    text-align: center;
-    margin: 0;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 10%;
-   }
-
-   .rboxspons ul{
-    float: None;
-    text-align: center;
-    margin: 0;
-    overflow: hidden;
-    padding: 20%;
-   }
-
-   header{
-     padding-bottom: 20px;
-   }
-
-   #showcase h1{
-     margin-top: 40px;
-   }
 
 
 
