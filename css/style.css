@@ -222,13 +222,13 @@ body{
 
   .projboxes .rbox1 h2{
     padding:0;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
   }
 
   .projboxes .rbox1 h3{
     padding:0;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
   }
 
@@ -237,7 +237,7 @@ body{
     display: block;
     margin:0 auto;
     padding-top:8px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
     padding-bottom:16px;
   }
@@ -272,13 +272,13 @@ body{
 
   .projboxes .lbox2 h2{
     padding:0;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
   }
 
   .projboxes .lbox2 h3{
     padding:0;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
   }
 
@@ -287,7 +287,7 @@ body{
     display: block;
     margin:0 auto;
     padding-top:8px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
     padding-bottom:16px;
   }
