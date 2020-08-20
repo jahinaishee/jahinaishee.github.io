@@ -1,7 +1,7 @@
 @font-face {
-  src: url(./doc/Raleway/Raleway-VariableFont_wght.ttf);
-  font-family: Raleway;
-}
+  font-family: "Raleway";
+  src: url("https://jahin.design/doc/Raleway/Raleway-VariableFont_wght.ttf");
+  }
   
   body{
     font: 15px/ 1.5 Raleway;
@@ -939,13 +939,7 @@ padding:40px;
    #showcase,
    #showcase h1,
    #showcase h3,
-   #showcase p,
-   .projboxes,
-   .projboxes .lbox1,
-   .projboxes .lbox1 h1,
-   .projboxes .rbox1,
-   .projboxes .lbox2,
-   .projboxes .rbox2{
+   #showcase p{
      float: None;
      text-align: center;
      width: 100%;
@@ -953,6 +947,26 @@ padding:40px;
      padding:0;
      overflow: hidden;
    }
+
+   .projboxes .lbox1, .rbox2{
+     padding: 20px;
+     float: None;
+     text-align: center;
+     width: 100%;
+     overflow: hidden;
+   }
+
+   .projboxes .rbox1 h2, h3, p{
+    float: None;
+     padding:0px;
+     text-align: center;
+   } 
+
+   .projboxes .lbox2 h2, h3, p{
+    float: None;
+    padding:0px;
+    text-align: center;
+  } 
 
    header #branding{
      padding-top: 50px;
