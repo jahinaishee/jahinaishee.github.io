@@ -3,15 +3,344 @@
   src: url("https://jahin.design/doc/Raleway/Raleway-VariableFont_wght.ttf");
   }
   
-  body{
-    font: 15px/ 1.5 Raleway;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
+body{
+  font: 15px/ 1.5 Raleway;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+
+  /* Phone Styling */
+
+  /* INDEX*/
+
+  /* Header */
+  header{
+    background: #ffffff;
+    color: black;
+    min-height:1em;
+    
   }
 
-/* Global */
+  header #branding img{
+    float:right;
+    margin:0 auto;
+    width: 20%;
+    padding: 25px;
+  }
 
+  /* Dropdown Button */
+  .dropbtn {
+    background: url("../img/dropdown.svg") no-repeat 0px 0px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:focus {
+    background-color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 45px 0 0 25px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  
+
+  header nav{
+    display:none;
+  }
+
+
+
+  /* Showcase */
+  #showcase{
+    min-height: 400px;
+    color: black;
+  }
+
+  #showcase h1{
+    text-align: left;
+    padding-left: 370px;
+    padding-bottom: 0px;
+    font-size: 58px;
+    font-weight: normal;
+    margin-block-start: 80px;
+    margin-block-end: 0;
+  }
+
+  #showcase p{
+    padding-top: 0px;
+    font-size: 24px;
+    padding-left: 375px;
+    padding-right: 350px;
+    margin-block-start: 0em;
+  }
+
+  #sb1{
+    color :#0A6C44;
+  }
+  #sb2{
+    color :#2D843C;
+  }
+  #sb3{
+    color :#549D3A;
+  }
+  #sb4{
+    color :#7CBA33;
+  }
+  #sb5{
+    color :#A3D22C;
+  }
+
+  #showcase h3{
+    text-align: center;
+    padding-top: 37.5px;
+    padding-bottom: 0px;
+    font-size: 26px;
+    font-weight: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* bouncing icon */
+  .icontainer {
+    display: flex;
+    height: 15vh;
+  }
+  
+  .icontainer-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto .25rem auto;
+  }
+  
+  .iarrow-circle-down {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 16px 0;
+  }
+  
+  .bounce {
+    -webkit-animation: bounce 1s;
+            animation: bounce 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+    60% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+    }
+  }
+  
+  @keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+    60% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+    }
+  }
+
+  /* Project Boxes */
+  
+
+
+
+  /* Footer */
+  footer {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: black;
+    background: #F6FBEA;
+    padding-left: 100px;
+    text-align: left;
+ 
+  }
+
+  /* boxes */
+  .projboxes{
+    width: 77%;
+    margin: auto;
+    padding-top: 150px;
+    overflow: hidden;
+  }
+
+  /* NETFLIX REDESIGN */
+ .projboxes .lbox1{
+    float: left;
+    width: 50.76%;
+    text-align: left;
+    color: black;
+    margin: 0;
+  }
+
+  .projboxes .rbox1{
+    float: right;
+    width: 49.24%;
+    text-align: left;
+    color: black;
+    margin: 0;
+  }
+
+  .projboxes .rbox1 h2{
+    padding-top:70px;
+    padding-left: 70px;
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+  .projboxes .rbox1 h3{
+    padding-left: 70px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .projboxes .rbox1 p{
+    padding-left: 10px;
+    padding-top:14px;
+    font-size: 22px;
+    font-weight: 200;
+    padding-bottom:20px;
+  }
+
+  .projboxes .rbox1 a{
+    text-decoration: none;
+    color:black;
+  }
+
+  .projboxes .rbox1 a img{
+    margin-bottom: 2px;
+    margin-left: 8px;
+  }
+
+  .projboxes .rbox1 a:hover{
+    padding-bottom: 6px;
+    text-decoration: none;
+    color:black;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-bottom-color: black;
+  }
+
+  /* MEYE */
+  .projboxes .rbox2{
+    float: right;
+    width: 50.76%;
+    text-align: left;
+    color: black;
+    margin: 0;
+  }
+
+  .projboxes .lbox2{
+    float: left;
+    width: 49.24%;
+    text-align: left;
+    color: black;
+    margin: 0;
+  }
+
+  .projboxes .lbox2 h2{
+    /* padding-left: 70px; */
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+  .projboxes .lbox2 h3{
+    /* padding-left: 70px; */
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .projboxes .lbox2 p{
+    /* padding-left: 10px; */
+    padding-right:70px;
+    padding-top:14px;
+    font-size: 22px;
+    font-weight: 200;
+    padding-bottom:20px;
+  }
+
+  .projboxes .lbox2 a{
+    text-decoration: none;
+    color:black;
+  }
+
+  .projboxes .lbox2 a img{
+    margin-bottom: 2px;
+    margin-left: 8px;
+  }
+
+  .projboxes .lbox2 a:hover{
+    padding-bottom: 6px;
+    text-decoration: none;
+    color:black;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-bottom-color: black;
+  }
+
+
+/* Desktop Styling */
+ @media only screen and (min-width:1000px){
 /* INDEX*/
 
   /* Header */
@@ -319,683 +648,6 @@
     border-bottom-width: 6px;
     border-bottom-color: black;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .button_1{
-    font-family: raleway;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 5px 5px 5px 5px;
-    border: 0;
-    height: 45px;
-    color: #faf6f5;
-    background: #ac3c64;
-    font-size: 15px;
-    font-weight: lighter;
-    border-radius: 25px;
-    margin-top: 20px;
-    text-decoration: None;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
-  }
-
-  .button_1:hover{
-    transform:scale(.975);
-    opacity:.85;
-    transition: all .15s ease-in-out;
-    font-weight: normal;
-  }
-
-  .dark{
-    padding: 16px;
-    background: #ffffff;
-    color:#ac3c64;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  /* sponsor showcase */
-  #sponsorshowcase{
-    min-height: 400px;
-    /* Source: https://www.shutterstock.com/image-vector/hygiene-elements-seamless-pattern-on-pink-404305711 */
-    background: url("../img/sponsor2.jpg") no-repeat 25px -90px;
-    text-align: center;
-    color: #faf6f5;
-    background-color: #ffffff;
-  }
-
-  #sponsorshowcase h1{
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;
-    color: #ffffff;
-  }
-
-  #sponsorshowcase p{
-    font-size: 20px;
-  }
-
-  /* newsletter */
-  .quote{
-   padding: 40px;
-   color: #ac3c64;
-   background-color: #ffffff;
-   text-align: center;
-   font-size: 25px;
-   font-family: brandon grotesque;
- }
-
- .quote h1{
-   padding-bottom: 50px;
-   padding-top: 20px;
-   font-size: 50px;
-   transition: all .2s ease-in-out;
- }
-
- .lquote{
-  padding: 40px;
-  color: #ffffff;
-  background-color: #ac3c64;
-  text-align: center;
-  font-size: 22px;
-  font-family: brandon grotesque;
-}
-
-.lquote h1{
-  color: white;
-  padding-bottom: 35px;
-  padding-top: 20px;
-  font-size: 35px;
-  font-family: brandon grotesque;
-}
-
- .quote h1:hover{
-  transform: scale(1.1);
-  transition-duration: .2s;
-}
-
-
-.connect{
-  padding: 20px;
-  color: #ac3c64;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.connect h1{
-  color: #ac3c64;
-  font-size: 35px;
-}
-
-.connect p{
-  color: black;
-  font-size: 18px;
-  font-weight: lighter;
-}
-
- .heading{
-  padding: 40px;
-  color: #ac3c64;
-  background-color: #ffffff;
-  text-align: center;
-  font-size: 25px;
-}
-
-.call_to_action{
-  padding: 40px;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.call_to_action a{
-  text-decoration: none;
-  color: #ac3c64;
-  font-style: italic;
-  transition: all .2s ease-in-out;
-  font-size: 50px;
-}
-
-.call_to_action a:hover{
-  text-decoration: none;
-  padding: 80px;
-  font-size: 51px;
-  color: white;
-  background-color: #ac3c64;
-  border: 2px solid #ac3c64;
-  border-radius: 25px;
-}
-
-.acontainer{
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-  background-color: #ac3c64;
-}
-
-.acontainer h1{
-padding:40px;
- color: white;
- text-align: center;
- font-size: 50px;
-}
-
- .boxes h3{
-   font-weight: lighter;
-   font-size: 40px;
-   color: black;
-   margin: 80px;
- }
-
- .boxes p{
-   font-size: 20px;
-   margin: 80px 80px 80px 80px;
- }
-
- .boxes img[src="./img/sust.png"],img[src="./img/cost.png"],img[src="./img/hygiene.png"]{
-   width:100%;
-   margin-top: 100px;
- }
-
- .boxes img{
-   width:100%;
- }
-
-  /* boxes */
- .boxes .lbox {
-    float: left;
-    width: 50%;
-    text-align: left;
-    color: black;
-    margin: 0;
-    font-family: brandon grotesque;
-  }
-
-  .boxes .lbox h3{
-    font-weight: 600;
-    font-style: italic;
-    color: #ac3c64;
-  }
-
-  .boxes .lbox a{
-    text-decoration: none;
-    font-style: italic;
-
-  }
-
-  .boxes .lbox a:hover{
-    text-decoration: none;
-    font-size: 21px;
-    transition: all .1s ease-in-out;
-  }
-
-  .boxes .rbox {
-    float: right;
-    width: 50%;
-    text-align: left;
-    color: black;
-    margin: 0;
-    font-family: brandon grotesque;
-  }
-
-  .boxes .rbox h3{
-    font-weight: 600;
-    font-style: italic;
-    color: #ac3c64;
-  }
-
-  #smallbox{
-    float: left;
-    width: 40%;
-    background-color: #ffffff;
-
-  }
-
-  #leftbox{
-    float: left;
-    margin: 200px 0px 170px 100px;
-    background-color: #f4eceb;
-    padding: 20px 20px 60px 50px;
-  }
-
-  #leftbox h1{
-    font-size: 50px;
-  }
-
-  #leftbox li{
-    font-size: 20px;
-  }
-
-  #bigbox{
-    float: right;
-    width: 60%;
-    background-color: #ffffff;
-
-  }
-
-  #rightbox img{
-    margin: 170px 0px 140px 0px;
-    float: left;
-    background-color: #ffffff;
-  }
-
-  #timeboxes {
-    background-color: #ffffff;
-  }
-
-  #timeboxes h1{
-    font-size: 40px;
-    text-align: center;
-  }
-
-  #timeboxes .timebox1 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    text-align: center;
-    color: black;
-    background-color: #f4eceb;
-    margin-left: 25px;
-    margin-right: 10px;
-    margin-bottom: 50px;
-  }
-
-  #timeboxes .timebox2 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    padding-bottom: 35px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #d8a7b6;
-    margin-right: 10px;
-    margin-bottom: 50px;
-
-  }
-
-  #timeboxes .timebox3 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #ac3c64;
-    margin-right: 10px;
-    margin-bottom: 50px;
-
-  }
-
-  .timebox1 h3{
-    color: black;
-    font-weight: lighter;
-    font-size: 25px;
-    margin-top: 40px;
-  }
-
-  .timebox2 h3, .timebox3 h3{
-    color: white;
-    font-weight: lighter;
-    font-size: 25px;
-    margin-top: 40px;
-  }
-
-  .timebox1 p, .timebox2 p, .timebox3 p{
-    margin-bottom: 50px;
-    font-size: 18px;
-  }
-
-  #budgetbox{
-    float: left;
-    color: #ffffff;
-    width: 50%;
-    margin: 100px 0px 100px 0px;
-  }
-
-  #budgetbox h1{
-    font-size: 50px;
-    color: white;
-    padding-left: 200px;
-  }
-
-  #budgetbox h2{
-    font-size: 30px;
-    color: white;
-    padding-left: 200px;
-  }
-
-  #budgetdescbox{
-    float: right;
-    color: #ffffff;
-    width: 50%;
-    font-size: 20px;
-    text-align: left;
-    margin: 150px 0px 150px 0px;
-  }
-
-  #budgetdescbox ul{
-    padding: 0px 150px 0px 30px;
-  }
-
-  .lboxinsp{
-    float: left;
-    width: 40%;
-  }
-
-  .lboxinsp img{
-    margin-left: 150px;
-  }
-
-  .rboxinsp{
-    float: right;
-    width: 60%;
-    overflow: hidden;
-  }
-
-  .rboxinsp p{
-    font-size: 30px;
-    margin: 100px 100px 100px 100px;
-    font-style: italic;
-    font-weight:lighter;
-  }
-
-  .lboxspons{
-    float: left;
-    width: 40%;
-  }
-
-  .lboxspons img{
-    margin-left: 25px;
-  }
-
-  .rboxspons{
-    float: right;
-    width: 60%;
-    overflow: hidden;
-  }
-
-  .rboxspons h2{
-    font-size: 60px;
-    margin: 50px 0px 0px 200px;
-    font-weight:lighter;
-  }
-
-  .rboxspons ul{
-    font-size: 30px;
-    margin: 25px 100px 50px 250px;
-    font-style: italic;
-    font-weight:lighter;
-    list-style: square inside;
-
-  }
-
-  .hboxcontainerproject img[src="./img/nightmare.jpeg"]{
-    width:80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  .boxcontainerstory1{
-    width:80%;
-    background-color: #f4eceb;
-    display: block;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-
-  .l1boxstory{
-    float: left;
-    width: 40%;
-  }
-
-  .r1boxstory{
-    float: right;
-    width: 50%;
-    padding: 20px;
-
-  }
-
-  .boxcontainerstory2{
-    width:80%;
-    background-color: #d8a7b6;
-    display: block;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .l2boxstory{
-    float: left;
-    width: 40%;
-  }
-
-  .r2boxstory{
-    float: right;
-    width: 50%;
-    padding: 20px;
-  }
-
-  .boxcontainterstory3{
-    width:80%;
-    background-color: #ac3c64;
-    display: block;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .l3boxstory{
-    float: left;
-    width: 40%;
-  }
-
-  .r3boxstory{
-    float: right;
-    width: 50%;
-    padding: 20px;
-  }
-
-  .l1boxstory h1{
-    font-size: 70px;
-    padding: 50px;
-  }
-
-  .r1boxstory p{
-    font-size: 20px;
-    padding: 0px 30px 0px 0px;
-  }
-
-  .l2boxstory h1, .l3boxstory h1{
-    font-size: 70px;
-    padding: 50px;
-    color: #ffffff;
-  }
-
-  .r2boxstory p{
-    font-size: 20px;
-    padding: 20px;
-    color: #ffffff;
-  }
-
-  .r3boxstory p{
-    font-size: 20px;
-    padding: 20px;
-    color: #ffffff;
-  }
-
-  #main h1, h3{
-    font-weight: bold;
-  }
-
-  #form{
-    background-color: #ac3c64;
-    width: 100%;
-  }
-
-  #form ::placeholder{
-    color: #cccccc;
-  }
-
-  #formlbox{
-    float: left;
-    width: 50%;
-    margin: 50px 0px 50px 0px;
-  }
-
-  #formlbox h2{
-    font-size: 50px;
-    color: #ffffff;
-  }
-
-  #formlbox p{
-    font-size: 20px;
-    color: #ffffff;
-  }
-
-  #formrbox{
-    float: right;
-    width: 50%;
-    margin: 50px 0px 50px 0px;
-    padding-bottom: 40px;
-  }
-
-  #formrbox label{
-    color: #ffffff;
-    font-size: 20px;
-  }
-
-  #formrbox .form input, #formrbox .form textarea{
-    padding: 10px;
-    width: 90%;
-    font: brandon grotesque;
-    font-size: 18px;
-    background-color: #ac3c64;
-    border: 2px solid #ffffff;
-    color: #ffffff;
-  }
-
-  #radio{
-    color: #ffffff;
-    font-size: 18px;
-    padding: 0px;
-    margin: 0;
-  }
-
-  #confirmation h2{
-    color: #ffffff;
-    text-align: center;
-    font-size: 40px;
-  }
-
-  #confirmation p{
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
-  }
-
-  #confirmation a{
-    color: #ffffff;
-    text-align: center;
-  }
-
-  .form_feedback {
-    color: #ffffff;
-  }
-
-  #confirmation ul{
-    padding: 20px 50px 20px 100px;
-    color: #ffffff;
-    list-style: none;
-    font-size: 20px;
-  }
-
- /* Media Quieries */
- @media(max-width: 768px){
-   header #branding,
-   header li,
-   nav,
-   header ul,
-   #showcase,
-   #showcase h1,
-   #showcase h3,
-   #showcase p{
-     float: None;
-     text-align: center;
-     width: 100%;
-     margin: 0;
-     padding:0;
-     overflow: hidden;
-   }
-
-   .projboxes .lbox1, .rbox2{
-     padding: 20px;
-     float: None;
-     text-align: center;
-     width: 100%;
-     overflow: hidden;
-   }
-
-   .projboxes .rbox1 h2, h3, p{
-    float: None;
-     padding:0px;
-     text-align: center;
-   } 
-
-   .projboxes .lbox2 h2, h3, p{
-    float: None;
-    padding:0px;
-    text-align: center;
-  } 
-
-   header #branding{
-     padding-top: 50px;
-     padding-bottom: 0px;
-   }
-
-   #showcase h1{
-     margin-top: 30px;
-   }
-
-   #showcase p{
-    margin-bottom: 30px;
-  }
-
-  #showcase{
-    margin-bottom: 20px;
-  }
-
-   header nav ul li{
-     padding: 10px;
-   }
-
-   header nav{
-    float: right;
-    padding-top: 20px;
-    background: none;
-  }
-
-
 
 
  }
