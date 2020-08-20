@@ -186,13 +186,13 @@ body{
 
   /* Footer */
   footer {
-    margin-top: 150px;
+    margin-top: 40px;
     margin-bottom: 20px;
     padding: 10px;
     color: black;
     background: #F6FBEA;
-    padding-left: 100px;
-    text-align: left;
+    padding-left: 25px;
+    text-align: center;
     font-size: 12px;
   }
 
@@ -238,7 +238,7 @@ body{
     margin:0 auto;
     padding-top:8px;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 300;
     padding-bottom:16px;
   }
 
@@ -288,7 +288,7 @@ body{
     margin:0 auto;
     padding-top:8px;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 300;
     padding-bottom:16px;
   }
 
