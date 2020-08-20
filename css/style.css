@@ -87,9 +87,9 @@ body{
 
   #showcase h1{
     text-align: left;
-    padding-left: 85px;
+    padding-left: 80px;
     padding-bottom: 0px;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 400;
     margin-block-start: 25px;
     margin-block-end: 0;
@@ -97,33 +97,38 @@ body{
 
   #showcase p{
     padding-top: 0px;
-    font-size: 12px;
+    font-size: 16px;
     padding-left: 85px;
     padding-right: 85px;
     margin-block-start: 8px;
   }
 
   #sb1{
+    font-weight: bold;
     color :#0A6C44;
   }
   #sb2{
+    font-weight: bold;
     color :#2D843C;
   }
   #sb3{
+    font-weight: bold;
     color :#549D3A;
   }
   #sb4{
+    font-weight: bold;
     color :#7CBA33;
   }
   #sb5{
+    font-weight: bold;
     color :#A3D22C;
   }
 
   #showcase h3{
-    text-align: left;
-    padding: 15px 0 0 85px;
-    font-size: 14px;
-    font-weight: 300;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
     margin-block-start: 0;
     margin-block-end: 0;
   }
