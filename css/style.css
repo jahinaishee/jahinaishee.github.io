@@ -182,7 +182,8 @@
 
   /* Footer */
   footer {
-    margin-top: 20px;
+    margin-top: 150px;
+    margin-bottom: 20px;
     padding: 20px;
     color: black;
     background: #F6FBEA;
@@ -190,28 +191,6 @@
     text-align: left;
  
   }
-
-
-.boxes h3{
-   font-weight: lighter;
-   font-size: 40px;
-   color: black;
-   margin: 80px;
- }
-
- .boxes p{
-   font-size: 20px;
-   margin: 80px 80px 80px 80px;
- }
-
- .boxes img[src="./img/sust.png"],img[src="./img/cost.png"],img[src="./img/hygiene.png"]{
-   width:100%;
-   margin-top: 100px;
- }
-
- .boxes img{
-   width:100%;
- }
 
   /* boxes */
   .projboxes{
@@ -280,7 +259,7 @@
 
   /* MEYE */
   .projboxes .rbox2{
-    float: left;
+    float: right;
     width: 50.76%;
     text-align: left;
     color: black;
@@ -288,7 +267,7 @@
   }
 
   .projboxes .lbox2{
-    float: right;
+    float: left;
     width: 49.24%;
     text-align: left;
     color: black;
@@ -296,20 +275,20 @@
   }
 
   .projboxes .lbox2 h2{
-    padding-top:37px;
-    padding-left: 70px;
+    /* padding-left: 70px; */
     font-size: 44px;
     font-weight: 600;
   }
 
   .projboxes .lbox2 h3{
-    padding-left: 70px;
+    /* padding-left: 70px; */
     font-size: 18px;
     font-weight: 600;
   }
 
   .projboxes .lbox2 p{
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-right:70px;
     padding-top:14px;
     font-size: 22px;
     font-weight: 200;
