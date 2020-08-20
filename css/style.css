@@ -929,9 +929,17 @@ padding:40px;
    header #branding,
    header li,
    header nav,
-   #boxes .box,
-   .boxes .lbox,
-   .boxes .rbox,
+   header ul,
+   #showcase,
+   #showcase h1,
+   #showcase h3,
+   #showcase p,
+   .projboxes,
+   .projboxes .lbox1,
+   .projboxes .lbox1 h1,
+   .projboxes .rbox1,
+   .projboxes .lbox2,
+   .projboxes .rbox2,
    #timeboxes .timebox1,
    #timeboxes .timebox2,
    #timeboxes .timebox3,
@@ -955,8 +963,19 @@ padding:40px;
      text-align: center;
      width: 100%;
      margin: 0;
+     padding:0;
      overflow: hidden;
    }
+
+   header{
+     min-width: auto;
+   }
+
+   header nav{
+    float: right;
+    padding-top:104px;
+    background: none;
+  }
 
   /* Project Page */
    #budgetbox h1, #budgetbox h2{
