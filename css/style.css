@@ -10,7 +10,7 @@ body{
   background-color: #ffffff;
 }
 
-
+@media (max-width:900px){
   /* Phone Styling */
 
   /* INDEX*/
@@ -246,7 +246,7 @@ body{
     text-decoration: none;
     color:#0A6C44;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
   }
 
@@ -297,7 +297,7 @@ body{
     text-decoration: none;
     color: #0A6C44;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 600;
   }
 
   .projboxes .lbox2 a img{
@@ -305,52 +305,82 @@ body{
   }
 
 
+
+
+
+
+
+/* About Me */
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 /* Desktop Styling */
- @media only screen and (min-width:1000px){
+ @media (min-width:901px){
 /* INDEX*/
 
   /* Header */
-  header{
+  .header{
     background: #ffffff;
     color: black;
     min-height:155px;
     
   }
 
-  header #branding{
+  .header #branding{
     float: left;
     padding-left: 100px;
     padding-top: 69px;
   }
 
-  header nav{
+  .dropdown{
+    display: none;
+  }
+
+  .header nav{
     float: right;
     padding-top:104px;
     background: url("../img/vines.svg") no-repeat -40px 0px;
   }
 
-  header ul{
+  .header ul{
     padding-right: 80px;
     font-size: 22px;
     font-weight: 200;
   }
 
-  header a{
+  .header a{
     text-decoration: None;
     color: black;
   }
 
-  header li{
+  .header li{
     display: inline;
     padding: 0 13px 0 13px;
   }
 
-  header .current a{
+  .header .current a{
     color: #0A6C44;
     font-weight: bold;
   }
 
-  header a:hover{
+  .header a:hover{
     color: #0A6C44;
     font-weight: bold;
     transition: all .3s ease-in-out;
