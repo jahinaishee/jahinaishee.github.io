@@ -50,7 +50,7 @@ body{
   .dropdown {
     position: relative;
     display: inline-block;
-    padding: 45px 0 0 95px;
+    padding: 45px 0 0 75px;
   }
   
   .dropdown-content {
@@ -187,17 +187,6 @@ body{
     }
   }
 
-  /* Footer */
-  footer {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    padding: 10px 25px;
-    color: black;
-    background: #F6FBEA;
-    text-align: left;
-    font-size: 8px;
-  }
-
   /* Project Boxes */
   /* boxes */
   .projboxes{
@@ -311,13 +300,92 @@ body{
 
 
 
-
 /* About Me */
 
+  #greeting{
+    display: block;
+    color: #A3D22C;
+  }
+
+  #greeting h2{
+    font-weight: 400;
+    font-size: 24px;
+    font-style: italic;
+  }
+
+  .aboutme{
+    display: block;
+    width: 80%;
+    margin-left: 35px;
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  .space{
+    padding:7px;
+  }
+
+  #profile{
+    padding: 10px;
+    width: 31.25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #b1{
+      font-weight: 600;
+      color :#0A6C44;
+    }
+  #b2{
+    font-weight: 600;
+    color :#2D843C;
+  }
+  #b3{
+    font-weight: 600;
+    color :#549D3A;
+  }
+  #b4{
+    font-weight: 600;
+    color :#7CBA33;
+  }
+  #b5{
+    font-weight: 600;
+    color :#A3D22C;
+  }
+
+  #quotation{
+    min-height: 78px;
+    padding-bottom: 40px;
+  }
+
+  #quotation img{
+    float:left;
+    padding-left: 39px;
+    padding-top: 21px;
+    display: block;
+  }
+
+  #quote{
+    font-style: italic;
+    float: right;
+    display: block;
+    width: 63.97%;
+    margin-right: 49px;
+    margin-top:32px;
+  }
 
 
-
-
+/* Footer */
+  footer {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    color: black;
+    background: #F6FBEA;
+    text-align: left;
+    font-size: 8px;
+  }
 
 
 
